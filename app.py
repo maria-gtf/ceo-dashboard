@@ -129,9 +129,7 @@ def delete_goal(goal_id):
 
 
 if __name__ == '__main__':
-    # Для локальной разработки
-    print("🚀 CEO Dashboard запущен: http://localhost:5000")
-    app.run(debug=True, port=5000)
-else:
-    # Для Vercel
-    application = app
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    # ВАЖНО: host='0.0.0.0' а не 127.0.0.1
+    app.run(host='0.0.0.0', port=port, debug=False)
