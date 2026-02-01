@@ -1,0 +1,9 @@
+{
+  "weekly_goals": [
+    {"id": 1, "text": "Закрыть хотя бы 3 маленьких или 1 большую задачу", "completed": false},
+    {"id": 2, "text": "Тренировка по пилатесу каждый день", "completed": false},
+    {"id": 3, "text": "Учить английский 30 мин/день", "completed": false},
+    {"id": 4, "text": "Читать хотя бы 4 дня", "completed": false},
+    {"id": 5, "text": "Убраться на столе", "completed": false}
+  ]
+}
